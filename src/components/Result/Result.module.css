@@ -1,0 +1,25 @@
+.modalContent {
+  padding: 32px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.winner {
+  font-size: 32px;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+}
+
+.closeButton {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #388e3c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  background-color: #2e7d32;
+}

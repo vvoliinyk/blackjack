@@ -1,0 +1,64 @@
+.card {
+  position: relative;
+  width: 80px;
+  height: 120px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+ 
+.cornerTopLeft,
+.cornerBottomRight {
+  position: absolute;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cornerTopLeft {
+  top: 4px;
+  left: 6px;
+}
+
+.cornerBottomRight {
+  bottom: 4px;
+  right: 6px;
+  transform: rotate(180deg);
+}
+
+.red {
+  color: red;
+
+  svg {
+    fill: red
+  }
+}
+
+.black {
+  color: black;
+
+  svg {
+    fill: black
+  }
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

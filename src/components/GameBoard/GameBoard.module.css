@@ -1,0 +1,41 @@
+.gameBoard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2e7d32;
+  min-height: 100vh;
+  padding: 32px;
+  color: #fff;
+
+  @media (max-width: 400px) {
+    padding: 0 16px;
+  }
+}
+
+
+.title {
+  font-size: 40px;
+  margin-bottom: 24px;
+
+  @media (max-width: 380px) {
+    font-size: 30px;
+  }
+}
+
+.hands {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 32px;
+}
+
+.handSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  @media (max-width: 380px) {
+    font-size: 12px;
+  }
+}
+  

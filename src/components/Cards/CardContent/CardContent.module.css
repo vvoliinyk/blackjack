@@ -1,0 +1,15 @@
+.suit {
+  font-size: 40px;
+}
+
+.pipContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+.pip {
+  font-size: 16px;
+}
